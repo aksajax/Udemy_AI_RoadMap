@@ -102,7 +102,7 @@ class CourseDetailAPIView(APIView):
 
 
 # --- 3. AI Roadmap Generator (Groq Integration) ---
-GROQ_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_KEY = os.getenv("GROQ_API_KEY", "")
 client = Groq(api_key=GROQ_KEY)
 
 class GenerateRoadmapView(APIView):

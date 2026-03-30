@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Database (Indore mein development ke waqt SQLite default rehti hai, ise ignore karein)
+*.sqlite3
+db.sqlite3
+
+# Media & Static (User uploads aur collected static files)
+media/
+staticfiles/
+static_root/
+
+# Environment Variables (Bahut zaroori: secret keys kabhi upload na karein)
+.env
+.flaskenv
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
